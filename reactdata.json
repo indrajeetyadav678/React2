@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "student": [
+    {
+      "name": "indrajeet",
+      "rollno": 120,
+      "class": "5th",
+      "fee": 12000,
+      "id": 1
+    },
+    {
+      "rollno": "101",
+      "name": "sona gupta",
+      "class": "10th",
+      "fee": "20000",
+      "id": 3
+    },
+    {
+      "rollno": "201",
+      "name": "mohan",
+      "class": "12th",
+      "fee": "25000",
+      "id": 4
+    },
+    {
+      "rollno": "203",
+      "name": "sohan",
+      "class": "12th",
+      "fee": "25000",
+      "id": 6
+    },
+    {
+      "rollno": "204",
+      "name": "rohan",
+      "class": "12th",
+      "fee": "25000",
+      "id": 7
+    },
+    {
+      "rollno": "205",
+      "name": "gaurav yadav",
+      "class": "11th",
+      "fee": "23000",
+      "id": 8
+    },
+    {
+      "rollno": "201",
+      "name": "saurav yadav",
+      "class": "11th",
+      "fee": "23000",
+      "id": 9
+    },
+    {
+      "rollno": "202",
+      "name": "divya yadav",
+      "class": "11th",
+      "fee": "23000",
+      "id": 10
+    }
+  ]
+}
