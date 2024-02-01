@@ -11,6 +11,7 @@ const Layout = () => {
                 <Link to="insert" id="Insertbtn">Insert</Link>
                 <Link to="display" id="disbtn">Display</Link>
                 <Link to="update" id="updatbtn">Update</Link>
+                <Link to="search" id="searchbtn">Search</Link>
             </div>
             <hr size="2" bgcolor="red" />
             <Outlet />

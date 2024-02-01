@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import edit from "../image/edit.png";
 import Delete from "../image/delete.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -37,10 +38,13 @@ const Update = () => {
                     <td>{key.class}</td>
                     <td>{key.fee}</td>
                     <td id="dataedit">
-                        <img src={edit} alt="" />
+                        <Link to={"/editrec/" + key.id}>
+                            <img src={edit} alt="" />
+                        </Link>
+
                     </td>
                     <td id="datadelete">
-                        <a href="#" onClick={() => {dataDelet(key.id)}}>
+                        <a href="#" onClick={() => { dataDelet(key.id) }}>
                             <img src={Delete} alt="" />
                         </a>
                     </td>
